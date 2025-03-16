@@ -1,0 +1,25 @@
+# Target directory (compiled files)
+target/
+
+# Rust build artifacts
+*.rlib
+*.rmeta
+
+# Cargo files
+Cargo.lock
+
+# Debugging/Profiling files
+*.profdata
+*.dSYM/
+
+# Misc
+*.log
+*.out
+*.swp
+*.bak
+*.tmp
+
+# Ignore IDE and editor-specific files
+.vscode/
+.idea/
+*.iml
